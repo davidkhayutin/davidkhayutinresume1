@@ -21,9 +21,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img {
-  width: 70px;
-  height: 70px;
+  width: 3.5em;
+  height: 3.5em;
+
 }
+.pagination,
+.pagination li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: right;
+}
+
 .d-block{
   width: 400px;
   height: auto;
