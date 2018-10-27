@@ -1,12 +1,4 @@
-/*!
- * Template Name: Orbit - Bootstrap 4 Resume/CV Template for Developers
- * Version: 2.0
- * Author: Xiaoying Riley
- * Copyright: 3rd Wave Media
- * Twitter: @3rdwave_themes
- * License: Creative Commons Attribution 3.0 License
- * Website: http://themes.3rdwavemedia.com/
-*/
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
@@ -29,8 +21,8 @@ img {
 .pagination li {
   display: flex;
   flex-wrap: wrap;
-  justify-content: right;
-  align-items: right;
+  justify-content: center;
+  align-items: center;
 }
 
 .d-block{
@@ -70,7 +62,7 @@ p {
 }
 
 .sidebar-wrapper {
-  background: #42A8C0;
+  background: #ba7530;
   position: absolute;
   right: 0;
   width: 240px;
@@ -80,7 +72,7 @@ p {
 }
 
 .sidebar-wrapper a {
-  color: #fff;
+  color: #fff5;
 }
 
 .sidebar-wrapper .profile-container {
@@ -205,7 +197,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #2d7788;
+  color: #ba7530;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -225,7 +217,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #2d7788;
+  background: #ba7530;
   text-align: center;
   font-size: 16px;
   position: relative;
@@ -271,8 +263,9 @@ p {
   color: #97AAC3;
 }
 
-.main-wrapper .project-title {
+.main-wrapper .project-title a{
   font-size: 16px;
+  color: #ba7530;
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 5px;
@@ -331,10 +324,12 @@ p {
 
 @media (max-width: 767.98px) {
   .sidebar-wrapper {
+    text-align: center;
     position: static;
     width: inherit;
   }
   .main-wrapper {
+     text-align: center;
     padding: 30px;
   }
   .main-wrapper .time {
