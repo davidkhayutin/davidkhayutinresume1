@@ -72,7 +72,7 @@ p {
 }
 
 .sidebar-wrapper a {
-  color: #fff5;
+  color: white;
 }
 
 .sidebar-wrapper .profile-container {
@@ -109,6 +109,7 @@ p {
 
 .sidebar-wrapper .contact-list li {
   margin-bottom: 15px;
+
 }
 
 .sidebar-wrapper .contact-list li:last-child {
@@ -121,6 +122,7 @@ p {
 
 .sidebar-wrapper .container-block {
   padding: 30px;
+
 }
 
 .sidebar-wrapper .container-block-title {
